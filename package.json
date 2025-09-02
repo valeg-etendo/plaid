@@ -48,7 +48,7 @@
     "serve-dev": "ng serve --port 4300",
     "start-dev": "electron main-dev.js",
     "start": "electron main.js",
-    "build": "ng build --prod",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider ng build --prod",
     "package": "electron-builder",
     "publish": "electron-builder --publish always",
     "lint": "ng lint"
